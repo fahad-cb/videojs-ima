@@ -1729,7 +1729,7 @@
     var ads_plugin_settings =
         extend({}, contrib_ads_defaults, options['contribAdsSettings'] || {});
 
-    player.ads(ads_plugin_settings);
+    //player.ads(ads_plugin_settings);
 
     player.one('play', setUpPlayerIntervals_);
     player.on('contentended', this.localContentEndedListener);
