@@ -1150,7 +1150,7 @@
      */
     var checkForResize_ = function() {
       var currentWidth = this.getPlayerWidth();
-      var currentHeight = this.getPlayerHeight();
+      var currentHeight = this.getPlayerHeight() -50;
 
       if (this.adsManager && (currentWidth != this.adsManagerDimensions.width ||
           currentHeight != this.adsManagerDimensions.height)) {
